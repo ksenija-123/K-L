@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    /* border: red solid 1px */
+}
+body {
+    background: grey;
+    color: black;
+}
+.page {
+    width: 500px;
+    margin: auto;
+    background: white;
+    height: auto;
+}
+
+a {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 70px auto;
+    text-decoration: none;
+}
+
+.header {
+    background: white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px black solid;
+    border-radius: 10px; */
+}
+
+.line {
+    border: 3px grey solid;
+    background-color:grey;
+}
+
+p, h1{
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover,
+a:visited:hover{
+    background-color: grey;
+}
