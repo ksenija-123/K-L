@@ -35,3 +35,12 @@ body {
 .card-body p {
     color: #c2c2c2;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #e3b227;
+    border-color: #e3b227;
+}
+
+p:hover {
+    color: #e3b227;
+}
