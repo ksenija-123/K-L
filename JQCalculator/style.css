@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+}
+
+.table1 {
+    /* margin-left: auto;
+        margin-right: auto; */
+    padding-left: 460px;
+}
+
+.boxed {
+    text-align: right;
+    border: 2px solid gray;
+    box-sizing: content-box;
+    width: 230px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.h1 {
+    padding-left: 460px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
