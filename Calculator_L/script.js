@@ -4,12 +4,8 @@ while (isNaN(number_1)) {
     number_1 = this.prompt("Please write a number")
 
 }
-// else this.alert("Thank you! It is a number!")
-let operation = this.prompt("Please write a operation.");
-// if (operation!="/" || operation!="*" || operation!="+" || operation!="-") {
-//     this.alert("You did not write a walid operation");
-//     operation = this.prompt("Please write a operation")
 
+let operation = this.prompt("Please write a operation.");
 
 let number_2 = this.prompt("Please write a number.");
 while (isNaN(number_2)) {
