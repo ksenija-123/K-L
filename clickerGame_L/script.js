@@ -16,5 +16,5 @@ function finalScore() {
 }
 
 setTimeout(function() {
-    alert("Time is up! You clicked " + score + " times")
+    alert("Time up! Your score is " + score)
 }, 6000)
