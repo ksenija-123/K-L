@@ -1,7 +1,8 @@
 
 
 const add = function(a, b) {
-	return parseInt(a)+parseInt(b)
+    console.log(Number(a)+Number(b))
+	return Number(a)+Number(b)
 };
 
 const subtract = function(a, b) {
@@ -25,6 +26,8 @@ function operate(operator, num1, num2){
         return devide(num1, num2);
         
         case "+":
+                console.log(num1, num2)
+
         return add(num1, num2);
         
         case "-":
@@ -113,6 +116,11 @@ devided.addEventListener("click", () => {
     previousDisplay.textContent += "/"
     operator = "/"  
 })
+
+const period = document.querySelector("#period").addEventListener("click", () => {
+    displays(".")
+});
+
 
 const equals = document.querySelector("#equals");
 equals.addEventListener("click", () => {
