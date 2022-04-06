@@ -6,15 +6,15 @@ const add = function(a, b) {
 };
 
 const subtract = function(a, b) {
-	return parseInt(a)-parseInt(b)
+	return Number(a)-Number(b)
 };
 
 const multiply = function(a, b) {
-    return parseInt(a)*parseInt(b);
+    return Number(a)*Number(b);
 }
 
 const devide = function (a, b) {
-    return parseInt(a)/parseInt(b)
+    return Number(a)/Number(b)
 }
 
 function operate(operator, num1, num2){
@@ -126,8 +126,8 @@ const equals = document.querySelector("#equals");
 equals.addEventListener("click", () => {
     previousDisplay.textContent += "=";
     currentDisplay.textContent = `${operate(operator, number_1, number_2)}`
-})
-
+    clear()
+});
 
 function displays(number) {
     if (operator === ""){
@@ -142,10 +142,11 @@ function displays(number) {
 const AC = document.querySelector("#AC");
 AC.addEventListener("click", () => {
     clear()
+    currentDisplay.textContent = "";
+
 })
 
 function clear() {
-    currentDisplay.textContent = "";
     previousDisplay.textContent = "";
     number_1 = [];
     number_2 = [];
